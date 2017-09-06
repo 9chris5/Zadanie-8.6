@@ -1,6 +1,6 @@
-var a=prompt('Podaj pierwszą liczbę'),
-    b=prompt('Podaj drugą liczbę'),
-    value=(a * a) + (2 * a * b) - (b * b);
+var a = prompt('Podaj pierwszą liczbę'),
+    b = prompt('Podaj drugą liczbę'),
+    value = (a * a) + (2 * a * b) - (b * b);
 
 if (value > 0) {
     console.log('Wynik dodatni');
